@@ -82,8 +82,26 @@ nav ul li ul li a:hover{
 nav h1 a{
     color: black;
 }
+
 body {
     padding: 25px;
     background-color: white;
     color: black;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: white; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 17px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
